@@ -33,7 +33,7 @@ while True:
 
     elif userInput == "2":
 
-        print("Введіть доповнення")
+        print("Яку книгу бажаєте додати?")
         newData = (str(input()) + "\n")
 
         file1 = open(filePath, "a+", encoding='utf-8')
@@ -55,7 +55,7 @@ while True:
 
     elif userInput == "4":
 
-        print("Введіть фамілію або бал")
+        print("Введіть назву книги")
         searchInput = str(input())
 
         file1 = open(filePath, "r", encoding='utf-8')
